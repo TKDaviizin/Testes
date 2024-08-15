@@ -1,3 +1,4 @@
+//Calculadora limitada.
 function calculadora(n1, n2, op) {
     switch (op) {
         case 'soma':
