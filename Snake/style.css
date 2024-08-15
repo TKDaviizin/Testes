@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#gameCanvas {
+    border: 5px solid #000;
+    background-color: #000;
+}
+
+#score, #level {
+    margin: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+#restartButton, #reverseButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+#restartButton {
+    background-color: #007bff;
+}
+
+#restartButton:hover {
+    background-color: #0056b3;
+}
+
+#reverseButton {
+    background-color: #28a745;
+}
+
+#reverseButton:hover {
+    background-color: #218838;
+}
